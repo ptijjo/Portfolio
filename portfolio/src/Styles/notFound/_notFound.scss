@@ -1,0 +1,39 @@
+@import "../setting";
+
+.notFound{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    background-color: lighten($color-2, 18%) ;
+    position: fixed;
+    top: 20vh;
+    &_content{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        & h2{
+            font-size:4rem;
+            margin-bottom: 50px;
+        }
+        & h3{
+            color: $color-4;
+            font-size: 1.8rem;
+            transition: 0.5s;
+            & i{
+                color: $color-4;
+                margin-left: 10px;
+            }
+
+            &:hover{
+                scale: 1.3;
+            }
+        }
+        
+    }
+}
