@@ -25,17 +25,25 @@ $red: rgb(253, 87, 87);
 }
 
 body{
-    max-width: 1480px;
+   
     font-family: $font-2;
-    overflow: hidden;
     background-color: $color-1;
+    
 }
 
-#root, body{
+a,
+a:visited {
+  color: $color-4;
+}
+
+#root{
     width: 100%;
+    max-width: 1480px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;  
     margin: 0 auto;
+    overflow: hidden;
+    background-color: lighten($color-2, 30%);
 }
