@@ -1,8 +1,14 @@
 import React from 'react';
+import Buttons from '../Components/Buttons';
+import Navigation from '../Components/Navigation';
 
 const Projet1 = () => {
     return (
-        <h1> Projet-1</h1>
+        <div>
+            <Navigation />
+            <Buttons left={"/"} />
+        </div>
+
     );
 };
 
