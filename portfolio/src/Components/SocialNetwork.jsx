@@ -3,7 +3,7 @@ import React from 'react';
 const SocialNetwork = () => {
 
     const aimant = () => {
-        const icons = document.querySelectorAll(".social-network a");
+        const icons = document.querySelectorAll(".social-network li");
 
         icons.forEach((lien) => {
             lien.addEventListener("mouseover", (e) => {
@@ -19,18 +19,16 @@ const SocialNetwork = () => {
 
     }
 
-
-
     return (
         <div className="social-network">
             <ul className="content">
-                <a href="https://linkedin.com/in/ibrahima-bangoura" target="_blank" rel="noopener noreferrer" className="hover" onMouseOver={aimant}>
-                    <li><i className="fa-brands fa-linkedin hover"></i></li>
-                </a>
+                <li><a href="https://linkedin.com/in/ibrahima-bangoura" target="_blank" rel="noopener noreferrer" className="hover" onMouseOver={aimant} aria-label="lien linkedin">
+                    <i className="fa-brands fa-linkedin hover"></i>
+                </a></li>
 
-                <a href="https://github.com/ptijjo" target="_blank" rel="noopener noreferrer" className="hover" onMouseOver={aimant}>
-                    <li><i className="fa-brands fa-github "></i></li>
-                </a>
+                <li><a href="https://github.com/ptijjo" target="_blank" rel="noopener noreferrer" className="hover" onMouseOver={aimant} aria-label="lien github">
+                    <i className="fa-brands fa-github "></i>
+                </a></li>
 
             </ul>
 

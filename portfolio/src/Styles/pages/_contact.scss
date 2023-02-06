@@ -1,4 +1,4 @@
-.contact-container {
+main {
   width: 100%;
 }
 
@@ -6,6 +6,7 @@
   position: absolute;
   width: 100vw;
   height: 100vh;
+  overflow: hidden;
 
   &:after {
     content: "";
@@ -207,7 +208,7 @@
     }
     .content {
       position: absolute;
-      right: 10px;
+      right: 25px;
     }
   }
   .phone {

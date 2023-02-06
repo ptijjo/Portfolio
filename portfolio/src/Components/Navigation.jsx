@@ -5,34 +5,34 @@ const Navigation = () => {
     return (
         <div className="navigation">
             <ul>
-                <NavLink to="/" className={(nav) => (nav.isActive ? "nav-active hover" : "hover")}>
-                    <li>accueil</li>
-                </NavLink>
+                <li><NavLink to="/" className={(nav) => (nav.isActive ? "nav-active hover" : "hover")}>
+                    accueil
+                </NavLink></li>
                 <li className="nav-portfolio">
                     portfolio
                     <ul className="nav-projects">
-                        <NavLink to="/projet-1" className={(nav) => (nav.isActive ? "nav-active hover" : "hover")}>
-                            <li>projet-1</li>
-                        </NavLink>
-                        <NavLink to="/projet2" className={(nav) => (nav.isActive ? "nav-active hover" : "hover")}>
-                            <li>projet-2</li>
-                        </NavLink>
-                        <NavLink to="/projet3" className={(nav) => (nav.isActive ? "nav-active hover" : "hover")}>
-                            <li>projet-3</li>
-                        </NavLink>
-                        <NavLink to="/projet4" className={(nav) => (nav.isActive ? "nav-active hover" : "hover")}>
-                            <li>projet-4</li>
-                        </NavLink>
-                        <NavLink to="/projet5" className={(nav) => (nav.isActive ? "nav-active hover" : "hover")}>
-                            <li>projet-5</li>
-                        </NavLink>
+                        <li><NavLink to="/projet-1" className={(nav) => (nav.isActive ? "nav-active hover" : "hover")}>
+                            projet-1
+                        </NavLink></li>
+                        <li><NavLink to="/projet2" className={(nav) => (nav.isActive ? "nav-active hover" : "hover")}>
+                            projet-2
+                        </NavLink></li>
+                        <li><NavLink to="/projet3" className={(nav) => (nav.isActive ? "nav-active hover" : "hover")}>
+                            projet-3
+                        </NavLink></li>
+                        <li><NavLink to="/projet4" className={(nav) => (nav.isActive ? "nav-active hover" : "hover")}>
+                            projet-4
+                        </NavLink></li>
+                        <li><NavLink to="/projet5" className={(nav) => (nav.isActive ? "nav-active hover" : "hover")}>
+                            projet-5
+                        </NavLink></li>
 
                     </ul>
                 </li>
 
-                <NavLink to="/contact" className={(nav) => (nav.isActive ? "nav-active hover" : "hover")}>
-                    <li>contact</li>
-                </NavLink>
+                <li><NavLink to="/contact" className={(nav) => (nav.isActive ? "nav-active hover" : "hover")}>
+                    contact
+                </NavLink></li>
 
             </ul>
         </div>
