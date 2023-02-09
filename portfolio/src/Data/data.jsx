@@ -1,11 +1,12 @@
+
 export const data = [
     {
         id: 1,
         titre: "Intégration du site de réservation Booki",
         stack: ["HTML", "CSS"],
-        github: "",
-        url: "",
-        image: "",
+        github: "https://github.com/ptijjo/projet2",
+        url: "https://ptijjo.github.io/projet2/",
+        image: "./assets/img/booki/booki.png",
         infos: "",
     },
 
