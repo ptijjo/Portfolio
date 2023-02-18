@@ -18,15 +18,13 @@ const Routers = () => {
                 <Routes>
                     <Route path='/' element={<Home />} />
                     <Route path='/contact' element={<Contact />} />
-                    <Route path='*' element={<NotFound />} />
                     <Route path='/projet-1' element={<Project1 />} />
                     <Route path='/projet-2' element={<Project2 />} />
                     <Route path='/projet-3' element={<Project3 />} />
                     <Route path='/projet-4' element={<Project4 />} />
                     <Route path='/projet-5' element={<Project5 />} />
                     <Route path='/projet-6' element={<Project6 />} />
-
-
+                    <Route path='*' element={<NotFound />} />
                 </Routes>
             </AnimatePresence>
         </BrowserRouter>

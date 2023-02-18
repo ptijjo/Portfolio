@@ -6,7 +6,6 @@ const Projet = (props) => {
 
     const [projet] = useState(data[num])
 
-    console.log(projet)
     return (
         <div className="project-main">
             <div className="project-content">
@@ -28,13 +27,11 @@ const Projet = (props) => {
                     <a href={projet.url} target="_blank" rel="noopener noreferrer" className='hover'>
                         <span className="button"> voir le site</span>
                     </a>
-
                     <a href={projet.github} target="_blank" rel="noopener noreferrer" className='hover'>
                         <span className="button"> voir le github</span>
                     </a>
                 </div>
             </div>
-
         </div>
     );
 };
