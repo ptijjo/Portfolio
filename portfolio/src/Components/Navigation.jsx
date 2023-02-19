@@ -14,16 +14,16 @@ const Navigation = () => {
                         <li><NavLink to="/projet-1" className={(nav) => (nav.isActive ? "nav-active hover" : "hover")}>
                             projet-1
                         </NavLink></li>
-                        <li><NavLink to="/projet2" className={(nav) => (nav.isActive ? "nav-active hover" : "hover")}>
+                        <li><NavLink to="/projet-2" className={(nav) => (nav.isActive ? "nav-active hover" : "hover")}>
                             projet-2
                         </NavLink></li>
-                        <li><NavLink to="/projet3" className={(nav) => (nav.isActive ? "nav-active hover" : "hover")}>
+                        <li><NavLink to="/projet-3" className={(nav) => (nav.isActive ? "nav-active hover" : "hover")}>
                             projet-3
                         </NavLink></li>
-                        <li><NavLink to="/projet4" className={(nav) => (nav.isActive ? "nav-active hover" : "hover")}>
+                        <li><NavLink to="/projet-4" className={(nav) => (nav.isActive ? "nav-active hover" : "hover")}>
                             projet-4
                         </NavLink></li>
-                        <li><NavLink to="/projet5" className={(nav) => (nav.isActive ? "nav-active hover" : "hover")}>
+                        <li><NavLink to="/projet-5" className={(nav) => (nav.isActive ? "nav-active hover" : "hover")}>
                             projet-5
                         </NavLink></li>
 

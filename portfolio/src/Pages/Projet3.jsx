@@ -11,8 +11,8 @@ const Projet3 = () => {
             <Mouse />
             <div className="project">
                 <Navigation />
-                <Buttons left={"/projet-2"} right={"/projet-4"} />
                 <Projet num={2} />
+                <Buttons left={"/projet-2"} right={"/projet-4"} />
             </div>
         </main>
     );
