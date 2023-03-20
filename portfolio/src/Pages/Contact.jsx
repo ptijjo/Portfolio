@@ -35,7 +35,7 @@ const Contact = () => {
                     </div>
                     <SocialNetwork />
                 </div>
-                <Buttons left={"/projet-1"} />
+                <Buttons left={"/projet-6"} />
             </div>
         </main>
     );

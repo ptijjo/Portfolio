@@ -12,7 +12,7 @@ const Projet6 = () => {
             <div className="project">
                 <Navigation />
                 <Projet num={5} />
-                <Buttons left={"/projet-5"} right={"/projet-7"} />
+                <Buttons left={"/projet-5"} right={"/contact"} />
             </div>
         </main>
     );
